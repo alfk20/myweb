@@ -6,7 +6,7 @@ function Login(){
 return(
   <div>
   <Input/>
-  <Button onClick = { () => alert("버튼이 눌림!") } > 로그인!1 </Button>
+  <Button onClick = { () => alert("띠리롱") } > log in! </Button>
   </div>
 
   )
