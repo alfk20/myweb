@@ -16,14 +16,18 @@ return(
 }
 
 class Login extends React.Component{
+constructor(){
+  super()
+  this.state = {id : "jashfha"}
+}
 
   render(){
     return(
       <div>
       <Input/>
-      <Button onClick = { (e) => {
+      <Button value = {this.state.id} onClick = { (event) => {
         console.log(e)
-        alert(e.target.value)
+        alert(event.target.value)
       } } > Login </Button>
       </div>
     )
