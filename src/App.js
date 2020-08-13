@@ -24,10 +24,9 @@ constructor(){
   render(){
     return(
       <div>
-      <Input/>
-      <Button value = {this.state.id} onClick = { (event) => {
-        console.log(e)
-        alert(event.target.value)
+      <Input onChange = { (e) => this.setState({id : e.target.value }) }/>
+      <Button onClick = { (event) => {
+        alert(this.target.value)
       } } > Login </Button>
       </div>
     )
