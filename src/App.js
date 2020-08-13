@@ -7,7 +7,7 @@ import space from "./space.jpeg"
 function App() {
   return (
     <div>
-  <Image src = {space} centered size='medium' />
+  <Image src = {space} centered size='large' />
   </div>
   );
 }
