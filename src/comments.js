@@ -1,8 +1,5 @@
 import React from 'react';
-import {Image, Button, Comment, Form, Header} from 'semantic-ui-react'
-
-import space from "./space.jpeg"
-import anon from "./anon-icon.png"
+import {Button, Comment, Form, Header} from 'semantic-ui-react'
 
 class Comments extends React.Component{
 
@@ -30,18 +27,8 @@ class Comments extends React.Component{
          <Form.TextArea />
          <Button content='Add Reply' labelPosition='left' icon='edit' primary />
        </Form>
-     </Comment.Group>
-    )
+     </Comment.Group>)
   }
 }
 
-function App() {
-  return (
-    <div>
-  <Image src = {space} centered size='large' />
-  <Comments />
-  </div>
-  );
-}
-
-export default App;
+export default Comments
