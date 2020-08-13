@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Input} from 'semantic-ui-react'
+import {Image} from 'semantic-ui-react'
 
 import space from "./space.jpeg"
 
@@ -7,7 +7,7 @@ import space from "./space.jpeg"
 function App() {
   return (
     <div>
-  <img src = {space}/>
+  <Image src = {space} centered size='medium' />
   </div>
   );
 }
