@@ -1,6 +1,8 @@
 import React from 'react';
 import {Button, Comment, Form, Header} from 'semantic-ui-react'
 
+import anon from "./anon-icon.png"
+
 class Comments extends React.Component{
 
   render(){
