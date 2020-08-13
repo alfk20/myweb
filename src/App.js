@@ -26,7 +26,7 @@ constructor(){
       <div>
       <Input onChange = { (e) => this.setState({id : e.target.value }) }/>
       <Button onClick = { (event) => {
-        alert(this.target.value)
+        alert(this.target.id)
       } } > Login </Button>
       </div>
     )
