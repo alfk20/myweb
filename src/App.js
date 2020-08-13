@@ -1,15 +1,33 @@
 import React from 'react';
 import {Button, Input} from 'semantic-ui-react'
 
-function Login(){
+function Login2(){
 
 return(
   <div>
   <Input/>
-  <Button onClick = { () => alert("띠리롱") } > log in! </Button>
+  <Button onClick = { (e) => {
+    console.log(e)
+    alert(e.target.value)
+  } } > log in! </Button>
   </div>
 
   )
+}
+
+class Login extends React.Component{
+
+  render(){
+    return(
+      <div>
+      <Input/>
+      <Button onClick = { (e) => {
+        console.log(e)
+        alert(e.target.value)
+      } } > Login </Button>
+      </div>
+    )
+  }
 }
 
 
