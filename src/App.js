@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Divider, Header, Icon} from 'semantic-ui-react'
+import {Button, Image, Divider, Header, Icon} from 'semantic-ui-react'
 
 import Comments from './comments.js'
 
@@ -17,6 +17,20 @@ function App() {
 </Header>
 </Divider>
   <Comments />
+  <div>
+  <Button color='facebook'>
+    <Icon name='facebook' /> Facebook
+  </Button>
+  <Button color='twitter'>
+    <Icon name='twitter' /> Twitter
+  </Button>
+  <Button color='instagram'>
+    <Icon name='instagram' /> Instagram
+  </Button>
+  <Button color='youtube'>
+    <Icon name='youtube' /> YouTube
+  </Button>
+</div>
   </div>
   );
 }
