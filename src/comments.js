@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Comment, Form, Header} from 'semantic-ui-react'
+import {Button, Icon, Comment, Form, Header} from 'semantic-ui-react'
 
 import anon from "./anon-icon.png"
 
