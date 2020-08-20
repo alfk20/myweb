@@ -12,6 +12,7 @@ function App() {
 
   <Divider horizontal>
 <Header as='h4'>
+  <Icon name='comment alternate outline' />
   cmnts
 </Header>
 </Divider>
