@@ -6,7 +6,7 @@ import anon from "./anon-icon.png"
 class Comments extends React.Component{
 
   render(){
-    return(<Comment.Group>
+    return(<Comment.Group style = {{marginLeft : "600px"}}>
        <Header as='h3' dividing>
          Comments
        </Header>
