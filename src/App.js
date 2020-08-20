@@ -12,8 +12,7 @@ function App() {
 
   <Divider horizontal>
 <Header as='h4'>
-  <Icon name='tag' />
-  Description
+  cmnts
 </Header>
 </Divider>
   <Comments />
